@@ -47,14 +47,3 @@ console.log(hasilWaktuDua);
 //contoh soal bikin : rabu, 18 Januari 2023
 let hasilWaktuTiga = `${dataHari[3]}, ${tanggal} ${dataBulan[0]} ${tahun}`;
 console.log(hasilWaktuTiga);
-
-// all about command git
-// git add .
-// git commit -m "test"
-// git push
-
-//bikin branch baru
-
-// git checkout -b "nama branch"
-// git add .
-// git switch
