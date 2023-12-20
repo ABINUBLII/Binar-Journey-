@@ -44,29 +44,25 @@
 // }
 // console.log(hitungTransaksi("jumat", 20000));
 
-// ada sebuah pertandingan sepak bola, jika team brandal unggul 2 point lagi maka menang
-// jika team brandal tidak dapat 2 point maka kalah
-
 //hitung volume 2 kubus dengan rumus s*s*s
-// function hitungVolumeKubus(a, b) {
-//   let sisiSatu;
-//   let sisiDua;
-//   let total;
+function hitungVolumeKubus(a, b) {
+  let sisiSatu;
+  let sisiDua;
+  let total;
 
-//   sisiSatu = a * a * a;
-//   sisiDua = b * b * b;
+  sisiSatu = a * a * a;
+  sisiDua = b * b * b;
 
-//   total = sisiSatu + sisiDua;
+  total = sisiSatu + sisiDua;
 
-//   return total;
-// }
-// console.log(hitungVolumeKubus(1, 1, 1));
-// console.log(hitungVolumeKubus(2, 2, 2));
+  return total;
+}
+console.log(hitungVolumeKubus(1, 1, 1));
 
-// creates a function that adds two numbers and return the sum make it simpler and remember the refactoring.
+//creates a function that adds two numbers and return the sum make it simpler and remember the refactoring.
 function addTwoNumbers(x, y) {
   return x + y;
 }
 console.log(addTwoNumbers(2, 5));
 
-//buat lebih rumit dan jabarkan
+// buat dengan cara lain
