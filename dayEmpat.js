@@ -132,7 +132,7 @@ function hitungTransaksi(hari, tunai) {
 console.log(hitungTransaksi("jumat", 50000));
 
 //brain jamming
-// dalam struk belanjaan ada kopi, gele, kecubung
+// dalam struk belanjaan ada kopi, kecubung, gele, kokain
 // user bayar dengan uang 50k
 // outputnya :
 // prduknya apa aja,
